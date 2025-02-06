@@ -9,10 +9,12 @@ body{
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
+    background-color: #F77A7E;
 
 }
 
 .yes{
+    padding: 0px;
     width: 20vw;
     /* height:3cm ; */
     height: 15vh;
@@ -24,6 +26,7 @@ body{
 }
 
 .no{
+    padding: 0px;
     width: 20vw;
     /* height: 3cm; */
     height: 15vh;
@@ -40,3 +43,12 @@ body{
     flex-wrap: wrap;
     
 }
+
+/* .buttons{
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    border-left: auto;
+    border-right: auto;
+    border-top: 0px;
+    border-bottom: 0px;
+} */
